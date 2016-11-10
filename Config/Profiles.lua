@@ -6,7 +6,7 @@ if (K.Name == "CharacterName") and (K.Realm == "RealmName") then
 end
 
 -- CharacterName personal config
-if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") then
+if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") or (K.Name == "Téapot") and (K.Realm == "Blackrock") then
   C["General"]["CustomLagTolerance"] = true
 	C["General"]["TranslateMessage"] = false
 	C["General"]["WelcomeMessage"] = false
@@ -52,7 +52,7 @@ if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") then
 	C["Misc"]["BGSpam"] = true
 	C["Misc"]["ColorPicker"] = true
 	C["Misc"]["MoveBlizzard"] = true
-  c["Misc"]["Combat"] = false
+  C["Misc"]["Combat"] = false
 
 	--C["Nameplates"]
 	--C["PulseCD"]
