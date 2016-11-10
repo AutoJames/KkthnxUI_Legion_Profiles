@@ -52,6 +52,7 @@ if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") then
 	C["Misc"]["BGSpam"] = true
 	C["Misc"]["ColorPicker"] = true
 	C["Misc"]["MoveBlizzard"] = true
+  c["Misc"]["Combat"] = false
 
 	--C["Nameplates"]
 	--C["PulseCD"]
