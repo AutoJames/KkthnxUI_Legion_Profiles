@@ -10,7 +10,7 @@ if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") or (
   C["General"]["CustomLagTolerance"] = true
 	C["General"]["TranslateMessage"] = false
 	C["General"]["WelcomeMessage"] = false
-  C["General"]["QuestSounds"] = false
+  C["General"]["QuestSounds"] = false``
 
 	C["ActionBar"]["EquipBorder"] = true
 	C["ActionBar"]["RightBarsMouseover"] = false
@@ -39,7 +39,7 @@ if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") or (
 
 	C["DataText"]["Location"] = false
 	C["DataText"]["LocalTime"] = false
-  --C["DataText"]["BottomBar"] = false --Disabled till after beta
+  C["DataText"]["BottomBar"] = false --Disabled till after beta
 
 	--C["Cooldown"]
 
