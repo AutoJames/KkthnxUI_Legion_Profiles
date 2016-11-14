@@ -10,10 +10,11 @@ if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") or (
   C["General"]["CustomLagTolerance"] = true
 	C["General"]["TranslateMessage"] = false
 	C["General"]["WelcomeMessage"] = false
+  C["General"]["QuestSounds"] = false
 
 	C["ActionBar"]["EquipBorder"] = true
 	C["ActionBar"]["RightBarsMouseover"] = false
-	C["ActionBar"]["StanceBarMou5seover"] = false
+	C["ActionBar"]["StanceBarMouseover"] = false
 	C["ActionBar"]["ToggleMode"] = false
 
 	C["Announcements"]["PullCountdown"] = false
