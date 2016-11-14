@@ -71,5 +71,5 @@ if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") or (
 	--C["Worldmap"]
 
   --MOVERS
-  C["Position"][UnitFrames]["PlayerCastbar"] = {"BOTTOM", "ActionBarAnchor", "TOP", 2.9, 169}
+  C["Position"]["UnitFrames"]["PlayerCastbar"] = {"BOTTOM", "ActionBarAnchor", "TOP", 2.9, 169}
 end
