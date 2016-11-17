@@ -58,10 +58,22 @@ if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") or (
 	--C["Nameplates"]
 	--C["PulseCD"]
 
+  C["RaidCD"]["Enable"] = true
+  C["RaidCD"]["Height"] = 15
+  C["RaidCD"]["Width"] = 186
+  C["RaidCD"]["UpWards"] = false
+  C["RaidCD"]["Expiration"] = false
+  C["RaidCD"]["ShowSelf"] = true
+  C["RaidCD"]["ShowIcon"] = true
+  C["RaidCD"]["ShowInRaid"] = true
+  C["RaidCD"]["ShowInParty"] = true
+  C["RaidCD"]["ShowInArena"] = true
+
 	C["Skins"]["DBM"] = true
 	C["Skins"]["DBMMove"] = true
 	C["Skins"]["MinimapButtons"] = true
 	C["Skins"]["Skada"] = true
+  C["Skins"]["Recount"] = true
 	C["Skins"]["WeakAuras"] = true
 
 	--C["Tooltip"]
@@ -71,5 +83,5 @@ if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") or (
 	--C["Worldmap"]
 
   --MOVERS
-  C["Position"]["UnitFrames"]["PlayerCastbar"] = {"BOTTOM", "ActionBarAnchor", "TOP", 2.9, 169}
+  C["Position"]["UnitFrames"]["PlayerCastbar"] = {"BOTTOM", "ActionBarAnchor", "BOTTOM", 2.9, 169}
 end
