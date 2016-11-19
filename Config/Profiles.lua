@@ -6,7 +6,7 @@ if (K.Name == "CharacterName") and (K.Realm == "RealmName") then
 end
 
 -- CharacterName personal config
-if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") or (K.Name == "Téapot") and (K.Realm == "Blackrock") then
+if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") or (K.Name == "Téapot" or K.Name == "Amiinell") and (K.Realm == "Blackrock") then
   C["General"]["CustomLagTolerance"] = true
 	C["General"]["TranslateMessage"] = false
 	C["General"]["WelcomeMessage"] = false
