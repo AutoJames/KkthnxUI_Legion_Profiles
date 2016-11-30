@@ -1,0 +1,8 @@
+## Interface: 70100
+## Title: |cff3c9bedKkthnxUI Tweaks|r
+## Notes: |cff3c9bedKkthnx's Personal |cff3c9bedKkthnxUI|r Tweaks
+## Version: 1.0
+## Author: Kkthnx
+## RequiredDeps: KkthnxUI
+
+Config\Config.lua
