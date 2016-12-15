@@ -8,8 +8,6 @@ if (K.Name == "CharacterName") and (K.Realm == "RealmName") then
 
 end
 
--- CharacterName personal config
-if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") or (K.Name == "Téapot" or K.Name == "Amiinell") and (K.Realm == "Blackrock") then
   C["General"].CustomLagTolerance = true
 	C["General"].TranslateMessage = false
 	C["General"].WelcomeMessage = false
@@ -87,4 +85,10 @@ if (K.Name == "Autonamus" or K.Name == "Aminel") and (K.Realm == "Illidan") or (
 
   --MOVERS
   C["Position"].UnitFrames.PlayerCastbar = {"BOTTOM", "ActionBarAnchor", "BOTTOM", 2.9, 169}
-end
+
+  local SetCVars = CreateFrame("Frame")
+      SetCVars:RegisterEvent("PLAYER_LOGIN")
+      SetCVars:SetScript("OnEvent", function(self, event)
+
+      SetCVar("autoLootDefault", 1)
+  end)
