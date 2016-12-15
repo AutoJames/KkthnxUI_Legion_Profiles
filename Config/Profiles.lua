@@ -3,11 +3,6 @@ local K, C, L = unpack(select(2, ...))
 -- Wow API
 local SetCVar = SetCVar
 
--- CharacterName personal config
-if (K.Name == "CharacterName") and (K.Realm == "RealmName") then
-
-end
-
   C["General"].CustomLagTolerance = true
 	C["General"].TranslateMessage = false
 	C["General"].WelcomeMessage = false
